@@ -1,0 +1,16 @@
+# Fichiers à ignorer lors de la construction de l'image Docker
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+.git
+.gitignore
+.env
+env/
+venv/
+# Ajoutez d'autres fichiers ou dossiers que vous ne voulez pas dans votre image Docker
+# Par exemple, de gros fichiers de données si elles sont montées autrement
+data/01_raw
+data/02_intermediate
+

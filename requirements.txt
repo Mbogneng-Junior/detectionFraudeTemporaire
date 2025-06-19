@@ -1,0 +1,7 @@
+# Exemple de contenu pour requirements.txt
+# Ajoutez vos dépendances pip ici, ex:
+# pandas
+# scikit-learn
+# matplotlib
+# jupyterlab
+

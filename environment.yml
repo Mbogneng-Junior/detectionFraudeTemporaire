@@ -1,0 +1,16 @@
+# Exemple de contenu pour environment.yml (Conda)
+name: _env # Nom de l'environnement conda
+channels:
+  - defaults
+  - conda-forge # Souvent utile pour des packages plus récents
+dependencies:
+  - python=3.9 # Spécifiez votre version de Python
+  - pip
+#  - pandas
+#  - numpy
+#  - scikit-learn
+#  - matplotlib
+#  - jupyterlab
+#  - pip:
+#    - -r requirements.txt # Si vous voulez aussi utiliser pip pour certaines dépendances
+
