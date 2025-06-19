@@ -1,7 +1,11 @@
-# config/main_config.yaml
-data:
-  raw_data_path: "data/01_raw/creditcard.csv"
+# Configuration pour l'environnement local
+local:
+  base_path: "."
+  data:
+    raw_data_path: "data/01_raw/creditcard.csv"
 
-# ... autres configs que vous ajouterez plus tard ...
-
-
+# Configuration pour l'environnement Colab
+colab:
+  base_path: "/content/detectionFraudeTemporaire"
+  data:
+    raw_data_path: "/content/drive/MyDrive/creditcard.csv"
